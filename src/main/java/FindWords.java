@@ -1,12 +1,12 @@
 import Util.Dictionary;
-import Util.MockDict;
+import Util.MockDictImp;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class FindWords {
 
-    Dictionary dict = new MockDict();
+    Dictionary dict = new MockDictImp();
 
     //find all the possible word in Dictionary by using the characters in the parse in String str
     public List<String> findAllWordsInString(String str) {

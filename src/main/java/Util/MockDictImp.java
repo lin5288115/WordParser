@@ -1,18 +1,16 @@
 package Util;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-public class MockDict implements Dictionary{
+public class MockDictImp implements Dictionary{
 
     Set<String> Dict;
 
-    public MockDict() {
+    public MockDictImp() {
         Dict = new HashSet<String>();
         readWords();
     }

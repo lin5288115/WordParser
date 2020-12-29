@@ -1,8 +1,6 @@
 package Util;
 
-import java.io.NotActiveException;
-
-public class OnlineDict implements Dictionary{
+public class OnlineDictImp implements Dictionary{
 
 
     // It should not be used now, it is prepared for later when real online Dictionary connecting
