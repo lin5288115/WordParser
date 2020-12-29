@@ -13,6 +13,7 @@ public class FunctionalTest {
     public void testFindAllWords(String testString, List<String> expectResult) {
 
         FindWords fw = new FindWords();
+        // get actual list from FindWord class
         List<String> actualResult = fw.findAllWordsInString(testString);
         System.out.println("Actual result: " + actualResult);
 

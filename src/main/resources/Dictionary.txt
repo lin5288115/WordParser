@@ -27,7 +27,3 @@ SO
 GOT
 STAND
 SOD
-
-
-
-
