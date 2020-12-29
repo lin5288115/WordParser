@@ -19,8 +19,8 @@ It will be accessed by FindWords class
 
 
 **Note**: 
-The all valid words are in  src/main/resources/Dictionary.txt
-All words in Dictionary are uppercase
+- All valid words are in  src/main/resources/Dictionary.txt
+- All words in Dictionary are uppercase
 
 
 
