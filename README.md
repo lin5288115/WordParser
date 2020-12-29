@@ -12,7 +12,7 @@ It will be accessed by FindWords class
 
 
 ### Functionality:
-- "readWords" is used to load all words in Dictionary.txt into MockDict.Dict
+- "readWords" is used to load all words in Dictionary.txt into MockDictImp.Dict
 - "isEnglishWord" is used to check whether a word in Dictionary 
 - "findAllWordsInString" is used to find all the possible word in Dictionary
 - "searchWord" is helper method to build possible words, and search the word in Dictionary
